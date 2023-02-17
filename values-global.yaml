@@ -7,11 +7,11 @@ global:
     installPlanApproval: Automatic
 
   datacenter:
-    cloudProvider: PROVIDE_CLOUDPROVIDER
-    storageClassName: PROVIDE_STORAGECLASS_NAME
-    region: PROVIDE_REGION
-    clustername: PROVIDE_CLUSTERNAME
-    domain: PROVIDE_DOMAIN
+    cloudProvider: aws
+    storageClassName: gp2
+    region: us-east-1
+    clustername: 9rnv5
+    domain: sandbox1156.opentlc.com
 
   xraylab:
     namespace: "xraylab-1"
